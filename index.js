@@ -3,9 +3,9 @@ const Cert=express();
 const port=3002;
 const mongoose=require('mongoose')
 
-const studentsrot= require('./routes/students')
-const eventrot= require('./routes/events')
-const certificaterot= require('./routes/certificates')
+const studentsrot= require('./models/students')
+const eventrot= require('./models/events')
+const certificaterot= require('./models/certificates')
 
 Cert.use(express.json())
 Cert.use('/students',studentsrot)
