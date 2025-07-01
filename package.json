@@ -1,0 +1,28 @@
+{
+  "name": "exam_practice",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000W\u0000e\u0000b\u0000-\u0000P\u0000r\u0000a\u0000c\u0000t\u0000i\u0000c\u0000a\u0000l\u0000 \u0000f\u0000r\u0000o\u0000m\u0000 \u0000S\u0000c\u0000a\u0000r\u0000t\u0000c\u0000h\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrManoj124/Web-Practical.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrManoj124/Web-Practical/issues"
+  },
+  "homepage": "https://github.com/MrManoj124/Web-Practical#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.1",
+    "nodemon": "^3.1.10"
+  }
+}
