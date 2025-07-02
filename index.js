@@ -1,16 +1,16 @@
-const express= require('express')
+const express= require('express');
 const Cert=express();
 const port=3002;
-const mongoose=require('mongoose')
+const mongoose=require('mongoose');
 
-const studentsrot= require('./models/students')
-const eventrot= require('./models/events')
-const certificaterot= require('./models/certificates')
+const studentsRoute= require('./routes/studentRoute')
+//const eventrot= require('./models/events')
+//const certificaterot= require('./models/certificates')
 
 Cert.use(express.json())
-Cert.use('/students',studentsrot)
-Cert.use('/events',eventrot)
-Cert.use('/certificates',certificaterot)
+Cert.use('/students',studentsRoute)
+//Cert.use('/events',eventrot)
+//Cert.use('/certificates',certificaterot)
 
 
 mongoose.connect('mongodb://localhost:27017/Awarding').then(()=>{
