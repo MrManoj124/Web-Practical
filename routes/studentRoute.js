@@ -1,7 +1,7 @@
 //const mongoose = require('mongoose')
 const express=require('express');
 const router=express.Router();
-const Student=require("../models/studentRoute");
+const Student=require("../models/student");
 
 router.get('/', async (req,res)=>{
     try{
