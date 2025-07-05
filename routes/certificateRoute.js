@@ -9,8 +9,8 @@ router.get('/', async (req,res)=>{
     res.json(Certificates);
     }
     catch(error){
-        //console.error(error)
-        res.status(500).json({ message: err.message})
+        console.error(error);
+        res.status(500).send("Server Error..!");
     }
 })
 
